@@ -67,7 +67,7 @@ module.exports = class {
                 FOOTER: (username) => `${username} | Version : ${c.version}`,
             },
             CATEGORIES: {
-                ADMINSTRATION: `Administartion`,
+                ADMINSTRATION: `Administration`,
                 MODERATION: `Modération`,
                 BOT: `Infos du bot`,
                 CONFIGURATION: `Configuration`,
@@ -162,7 +162,7 @@ module.exports = class {
                 INVALID_CHANNEL: `${e.error} Merci de spécifier un canal valide sur le serveur.`,
                 SUCCESS_CHANNEL: `${e.success} Le canal de logs a bien été configuré`,
                 INVALID_OR_NULL_CHANNEL: `${e.error} Merci de vérifier que vous avez bien configuré un canal de logs ou que celui que vous avez configuré est valide avant d'activer les logs.`,
-                NO_PERM: `${e.error} Merci de me donner la permission d'envoyer des message dans ce canal ou d'en spécifier un autre.`
+                NO_PERM: `${e.error} Merci de me donner la permission d'envoyer des messages dans ce canal ou d'en spécifier un autre.`
             },
             CONFIGURATION: {
                 DESCRIPTION: `Permet de voir la configuration actuelle sur le serveur.`,
@@ -238,7 +238,8 @@ module.exports = class {
                 NON_EXISTENT_CHANNEL: `${e.error} Impossible de configurer le message de bienvenue tant que le canal de bienvenue n'est pas configuré ou invalide.`,
                 TOO_LONG: `${e.error} Votre message de bienvenue est trop long, il ne doit pas dépasser 1000 caractères.`,
                 MESSAGE_SUCCESS: `${e.success} Le message de bienvenue a bien été configuré.`,
-                NO_ARGS: `${e.error} Merci de spécifier une action: on, off, reset, channel, message, options.`,
+				NO_ARGS: `${e.error} Merci de spécifier une action: on, off, reset, channel, message, options.`,
+				NO_PERM: `${e.error} Merci de me donner la permission d'envoyer des messages dans ce canal ou d'en spécifier un autre.`,
             },
             LEAVEMSG: {
                 DESCRIPTION: `Permet de configurer le message et canal d'au revoir du serveur.`,
@@ -262,17 +263,23 @@ module.exports = class {
                 NON_EXISTENT_CHANNEL: `${e.error} Impossible de configurer le message d'au revoir tant que le canal d'au revoir n'est pas configuré ou invalide.`,
                 TOO_LONG: `${e.error} Votre message d'au revoir est trop long, il ne doit pas dépasser 1000 caractères.`,
                 MESSAGE_SUCCESS: `${e.success} Le message d'au revoir a bien été configuré.`,
-                NO_ARGS: `${e.error} Merci de spécifier une action: on, off, reset, channel, message, options.`,
+				NO_ARGS: `${e.error} Merci de spécifier une action: on, off, reset, channel, message, options.`,
+				NO_PERM: `${e.error} Merci de me donner la permission d'envoyer des messages dans ce canal ou d'en spécifier un autre.`,
             },
             PREFIX: {
-                DESCRIPTION: `Description`,
-                USAGE: `Usage`,
-                EXAMPLES: `Example`,
+                DESCRIPTION: `Permet de configurer le préfixe du bot sur le serveur.`,
+                USAGE: `$prefix <nouveau préfixe>`,
+				EXAMPLES: `$prefix !!\n$prefix ?`,
+				NO_ARGS: `${e.error} Merci de spécifier un nouveau prefixe.`,
+				SUCCESS: (prefix) => `${e.success} Le nouveau préfixe est maintenant: ${prefix}`,
             },
             LANG: {
-                DESCRIPTION: `Description`,
-                USAGE: `Usage`,
-                EXAMPLES: `Example`,
+                DESCRIPTION: `Permet de configurer la langue du bot.`,
+                USAGE: `$lang <langue>`,
+				EXAMPLES: `$lang english\n$lang fr-FR`,
+				NO_ARGS: (langs) => `${e.error} Merci de spécifier une langues. Voici celles disponibles: ${langs}`,
+				INVALID_LANG: (langs) => `${e.error} Merci de spécifier une langue valide. Voici celles disponibles: ${langs}`,
+				SUCCESS: (lang) => `${e.success} La langue du bot est mainenant configuré sur: ${lang}`,
             },
             ADDBONUS: {
                 DESCRIPTION: `Description`,
