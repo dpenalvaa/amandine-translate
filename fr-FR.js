@@ -341,20 +341,6 @@ module.exports = class {
 				ENABLED: `${e.success} Cleanify est maintenant activé.`,
 				DISABLED: `${e.success} Cleanify est maintenant désactivé.`
 			},
-
-
-			/* STAFF COMMANDS */
-
-			EVAL: {
-				DESCRIPTION: `rere`,
-				USAGE: ``,
-				EXAMPLES: ``,
-			},
-			EXEC: {
-				DESCRIPTION: `rere`,
-				USAGE: ``,
-				EXAMPLES: ``,
-			},
         }
     }
 
