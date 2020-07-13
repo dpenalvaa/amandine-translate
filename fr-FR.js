@@ -24,7 +24,21 @@ module.exports = class {
                 DISABLED: `${e.error} Désactivé`,
                 NOT_DEFINED: `${e.error} Non défini`,
                 NONE: `${e.error} Aucun`,
-                DEFAULT_PREFIX: (prefix) => `Hey, mon prefix sur ce serveur est \`\`${prefix}\`\``
+				DEFAULT_PREFIX: (prefix) => `Hey, mon prefix sur ce serveur est \`\`${prefix}\`\``,
+				MONTHS_SHORT: [
+					`Janv`,
+					`Fév`,
+					`Mars`,
+					`Avr`,
+					`Mai`,
+					`Juin`,
+					`Juillet`,
+					`Août`,
+					`Sept`,
+					`Oct`,
+					`Nov`,
+					`Déc`
+				],
             },
             EVENTS: {
                 CHANNEL_CREATE: ``,
@@ -140,7 +154,7 @@ module.exports = class {
                 LOGS_STATE: `**État des logs :**`,
                 LOGS_CHANNEL: `**Canal de logs :**`,
                 NO_LOGS_CHANNEL: `Le canal n'est pas configuré ou est invalide.`,
-                LOGS_TIP: `Détails des logs \"{prefixes}configuration logs\"`,
+                LOGS_TIP: `Détails des logs "{prefixes}configuration logs"`,
                 LOGS_DETAILS: `Liste détaillée des logs.`,
             },
             LOGGING: {
@@ -311,7 +325,7 @@ module.exports = class {
 			},
 			INVITEBLACKLIST: {
 				DESCRIPTION: `Permet de blacklister un membre du système d'invitations.`,
-				USAGE: `$inviteblacklist <action> [@membre]`,
+				USAGE: `$inviteblacklist <option> [@membre]`,
 				EXAMPLES: `$inviteblacklist add @membre\n$inviteblacklist remove @membre\n$inviteblacklist list`,
 				NO_MENTION: `${e.error} Merci de mentionner un membre.`,
 				ALREADY_BLACKLISTED: `${e.error} Ce membre est déja blacklisté.`,
@@ -320,16 +334,155 @@ module.exports = class {
 				REMOVE_SUCCESS: `${e.success} Ce membre a bien été retiré de la blackliste.`,
 				NO_BLACKLISTED_USER: `${e.error} Il n'y a aucun utilisateur blacklisté.`,
 				NO_ARGS: `${e.error} Merci de spécifier une action: add, remove, list`,
-				LIST: `Voci la liste des utilisateurs blacklistés`,
+				LIST: `Voici la liste des utilisateurs blacklistés`,
 			},
+			INVITERANK: {
+				DESCRIPTION: `Permet de configurer les rôles récompenses d'invitations`,
+				USAGE: `$inviterank <option> <nombre d'invitations> @role`,
+				EXAMPLES: `$inviterank add 10 @Amandine-Lover\n$inviterank remove @Amandine-Lover`,
+				NO_ARGS_INVITE: `${e.error} Merci de spécifier un nombre d'invitations.`,
+				IS_NAN: `${e.error} Merci de spécifier un nombre valide.`,
+				ALREADY_RANK_FOR_INVITE: `${e.error} Il y à déjà un role pour ce nombre d'invitations.`,
+				NO_ROLE_MENTION: `${e.error} Merci de mentionner un rôle.`,
+				INVALID_OR_MANAGED: `${e.error} Merci de verifier que le rôle que vous avez mentionné est valide.`,
+				ALREADY_INVITE_FOR_RANK: `${e.error} Il y à déjà un un nombre d'invitations pour ce rôle.`,
+				ADD_SUCCESS: `${e.success} Le rôle a bien été ajouté.`,
+				NO_ROLE_FOUND: `${e.error} Il n'y a aucun rôle de ce nom configuré sur le serveur.`,
+				REMOVE_SUCCESS: `${e.success} Le rôle a bien été retiré.`,
+				NO_ARGS: `Merci de spécifier une action: add, remove.`
+			},
+			INVITERANKS: {
+				DESCRIPTION: `Permet de voir les rôles récompenses d'invitations du serveur.`,
+				USAGE: `$inviteranks`,
+				EXAMPLES: `$inviteranks`,
+				NO_RANKS: `${e.error} Il n'y a aucun rôle configuré sur le serveur.`,
+				DELETED: (invite) => `${e.error} Le rôle assigné a ${invite} invitations a été suprimmé et n'est plus accessible.\n`,
+				RANKS: (role, invite) => `${role} (**${invite}** invitations)\n`,
+				RANK: `Voici les rôles disponible`,
+			},
+			INVITES: {
+				DESCRIPTION: `Permet de voir vos invitations ou celles d'un amis.`,
+				USAGE: `$invites`,
+				EXAMPLES: `$invites`,
+				BLACKLISTED: `${e.error} Vous êtes blacklisté sur ce serveur, veuillez contacter un Modérateur/Administrateur.`,
+				INVITES: (member, memberData, isYou, nextRank, role) => `${isYou ? `Vous avez` : `**${member.user.username}** a`} **${memberData.calcInvites()}** invitations! (**${memberData.invites}** ordinaires, **${memberData.bonus}** bonus, **${memberData.fake > 0 ? `-${memberData.fake}` : `${memberData.fake}`}** faux, **${memberData.leaves > 0 ? `-${memberData.leaves}` : `${memberData.leaves}`}** partis)${nextRank ? `\nIl ${isYou ? `vous` : `lui`} faut encore **${nextRank.inviteCount - memberData.calcInvites()}** invitations pour obtenir le rôle **${role}** !` : ``}`,
+			},
+			JOINSTATS: {
+				DESCRIPTION: `Affiche un graphique avec les statistiques des membres qui ont rejoint le serveur.`,
+				USAGE: `$joinsstats`,
+				EXAMPLES: `$joinsstats`,
+				INVALID: `${e.error} Merci de spécifier un nombre valide. Entre 1 et 1000`,
+				TITLE: (name, numberOfDays) => `Statistiques de ${name} depuis ${numberOfDays} jours.`,
+				PERCENT: (total, percent) => `${total} ont rejoint, soit ${percent}% du serveur.`,
+				RANGE: (dayRange1, dayRange2) => `Statistiques du ${dayRange1} au ${dayRange2}`
+			},
+			SETKEEP: {
+				DESCRIPTION: `Permet de configurer si les membres gardent leur rôles même si il n'ont pls assez d'invitations.`,
+				USAGE: `$setkeep`,
+				EXAMPLES: `$setkeep`,
+				ENABLED: `${e.success} Keeprank est maintenant activé.`,
+				DISABLED: `${e.success} Keeprank est maintenant désactivé.`,
+			},
+			SETSTACKED: {
+				DESCRIPTION: `Permet de configurer si les membres accumullet leurs rôles ou non.`,
+				USAGE: `$setstacked`,
+				EXAMPLES: `$setstacked`,
+				ENABLED: `${e.success} Stackedrank est maintenant activé.`,
+				DISABLED: `${e.error} Stackedrank est maintenant désactivé.`,
+            },
+            REMOVEBONUS: {
+                DESCRIPTION: `Permet de retirer des invitations bonus a un utilisateur.`,
+                USAGE: `$removebonus <quantité> @membre1 @membre2 ....`,
+				EXAMPLES: `$removebonus 10 @Mr¤KayJayDee @Alex`,
+				NO_ARGS: `${e.error} Merci de spécifier une quantité a retirer.`,
+				ARGS_IS_NAN: `${e.error} Merci de vérifier la quantité spécifiée. Notez qu'elle ne peut pas être negative et ne doit pas depasser 100.`,
+				NO_MENTION: `${e.error} Merci de mentionner un membre.`,
+				SUCCESS: `${e.success} Le/les membres a/ont perdu leur bonus. Notez que les membres blacklisté ont été ignorés.`,
+            },
+            RESTOREINVITES: {
+                DESCRIPTION: `Permet de restaurer les inviations après une reinitialisation de celles-ci.`,
+                USAGE: `$restoreinvites [@membre]`,
+                EXAMPLES: `$restoreinvites @Mr¤KayJayDee`,
+                CONFIRM_ALL: `${e.loading} Merci de confirmer que vous êtes sûr de vouloir réinitialiser les invitations de tout les membres du serveur. Tapez \`\`-confirm\`\` pour confirmer ou \`\`cancel\`\` pour annuler.`,
+				CONFIRM_MEMBER: `${e.loading} Merci de confirmer que vous êtes sûr de vouloir réinitialiser les invitations du/des membre(s) mentionné(s). Tapez \`\`-confirm\`\` pour confirmer ou \`\`cancel\`\` pour annuler.`,
+				CANCELLED_ALL: `${e.error} La réinitialisation des invitations de tout les membres a été annulée.`,
+				CANCELLED_MEMBER: `${e.error} La réinitialisation des invitations du/des membre(s) mentionné(s) a été annulée.`,
+				SUCCESS_ALL: `${e.success} Les invitations de tout les membres ont bien été réinitialisées.`,
+				SUCCESS_MEMBER: `${e.success} Les invitations du/des membres mentionné(s) ont bien été réinitialisées.`,
+				TIMEOUT_ALL: `${e.time} Le temp est écoulé, vous n'avez pas validé que vous vouliez réinitialiser les invitations de tout les membres du serveur.`,
+				TIMEOUT_MEMBER: `${e.time} Le temp est écoulé, vous n'avez pas validé que vous vouliez réinitialiser les invitations du/des membre(s) mentionné(s).`,
+            },
+            SYNCINVITES: {
+                DESCRIPTION: `Permet de synchroniser les invitations du serveur avec la base de donnée du bot.`,
+                USAGE: `$syncinvites`,
+                EXAMPLES: `$syncinvites`,
+                NO_INVITES: `${e.success} Il n'y a aucune invitations a synchroniser.`,
+                CONFIRM: `${e.loading} Merci de confirmer que vous êtes sûr de vouloir synchroniser les invitations de tout les membres du serveur avec la base de données. Tapez \`\`-confirm\`\` pour confirmer ou \`\`cancel\`\` pour annuler.`,
+                CANCELLED: `${e.error} La synchronisation des invitations de tout les membres a été annulée.`,
+                SUCCESS: `${e.success} Les invitations de tout les membres ont bien été synchronisée.`,
+                TIMEOUT: `${e.time} Le temp est écoulé, vous n'avez pas validé que vous vouliez synchroniser les invitations de tout les membres du serveur.`,
+            },
+            CONFIGCOMMAND: {
+                DESCRIPTION: `Permet de configurer les commandes activées ou désactivées sur votre serveur.`,
+                USAGE: `$configcommand <nom de la commande>`,
+                EXAMPLES: `$configcommand help`,
+                ENABLED: `${e.success} Cette commande est maintenant activée.`,
+                DISABLED: `${e.error} Cette commande est maintenant désactivée.`,
+            },
+            GIVEAWAY: {
+                DESCRIPTION: `Permet de créer et gérer des giveaways sur vos serveurs.`,
+                USAGE: `$giveaway <create/edit/end/reroll/config>`,
+                EXAMPLES: `$giveaway create #giveaways-hype 10m 5 A cool role color\n$giveaway edit time <id du message de giveaway> 20m\n$giveaway reroll <id du message de giveaway>\n$giveaway end <id du message de giveaway>\n$giveaway delete <id du message de giveaway>\n$giveaway config color #FF0000 (une couleur hexadécimale)\n$giveaway config endcolor #00FF00 (une couleur hexadécimale)`,
+                NO_CHANNEL: `${e.error} Merci de mentionner un canal.`,
+                NO_TIME: `${e.error} Merci de spécifier un temps.`,
+                TIME_IS_NAN: `${e.error} Merci de spécifier un temps valide.`,
+                DAY_LIMIT: ``,
+                NO_WINNERS: `${e.error} Merci de spécifier un nombre de gagnants.`,
+                WINNERS_IS_NAN: `${e.error} Merci de spécifier un nombre de gagnants valide.`,
+                TOO_MANY_WINNERS: `${e.error} Vous ne pouvez pas avoir plus de 50 gagnants.`,
+                NO_PRIZE: `${e.error} Merci de spécifier un prix.`,
+                PRIZE_TOO_LONG: `${e.error} Merci de spécifier un prix plus cours. (max 250 caractères)`,
+                DELETED: `${e.success} Le giveaway a bien été suprimmé.`,
+                NO_ID: `${e.error} Merci de spécifier l'id du message de giveaway.\n[Cliquez ce lien pour savoir comment l'obtenir](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)`,
+                UPDATE: (time) => `${e.success} Le giveaway va se mettre à jour dans moins de ${time} secondes.`,
+                NO_EDIT_OPTION: `${e.error} Merci de spécifier une option a modifier: time, winner, prize`,
+                END: (time) => `${e.success} Le giveaway va se terminer dans moins de ${time} secondes.`,
+                NO_MESSAGE_FOUND: `${e.success} Aucune message n'a été reouvé, merci de vérifier l'ID.`,
+                NO_COLOR: `${e.success} Merci de spécifier une couleur.`,
+                SUCCESS_COLOR: `${e.success} La couleur des giveaways à bien été mise à jour.`,
+                LINK_HEX: `${e.success} Cliquez ici pour en savoir plus.`,
+                NOT_HEX: `${e.error} Merci de spécifier une couleur hexadécimale.`,
+                SUCCESS_END_COLOR: `${e.success} La couleur de fin des giveaways à été mise à jour.`,
+                NO_CONF_OPTION: `${e.error} Merci de spécifier une options a configurer: color, endcolor.`,
+                NO_OPTION: `${e.error} Merci de spécifier une action: creat, edit, reroll, end, config, delete`,
+                MESSAGES: {
+                    giveaway: `🎉🎉 **GIVEAWAY** 🎉🎉`,
+                    giveawayEnded: `🎉🎉 **GIVEAWAY ENDED** 🎉🎉`,
+                    timeRemaining: `Time remaining: **{duration}**!`,
+                    inviteToParticipate: `React with 🎉 to participate!`,
+                    winMessage: `Congratulations, {winners}! You won **{prize}**!`,
+                    embedFooter: `Giveaways`,
+                    noWinner: `Giveaway cancelled, no valid participations.`,
+                    hostedBy: `Hosted by: {user}`,
+                    winners: `winner(s)`,
+                    endedAt: `Ended at`,
+                    units: {
+                        seconds: `seconds`,
+                        minutes: `minutes`,
+                        hours: `hours`,
+                        days: `days`,
+                        pluralS: false // Not needed, because units end with a S so it will automatically removed if the unit value is lower than 2
+                    }
+                }
+            },
             CLEANIFY: {
                 DESCRIPTION: `Permet d'activer ou pas la supression automatique des messages du bot.`,
                 USAGE: `$cleanify`,
                 EXAMPLES: `$cleanify`,
                 ENABLED: `${e.success} Cleanify est maintenant activé.`,
-                DISABLED: `${e.success} Cleanify est maintenant désactivé.`
+                DISABLED: `${e.error} Cleanify est maintenant désactivé.`
             },
-        }
+        };
     }
 
     /**
@@ -402,4 +555,4 @@ module.exports = class {
             .replace(`{seconds}`, seconds);
         return sentence;
     }
-}
+};

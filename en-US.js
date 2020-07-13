@@ -1,10 +1,10 @@
-let lang = "en-US";
+let lang = `en-US`;
 
 module.exports = class {
     constructor() {
         this.language = {
 
-        }
+        };
     }
 
     /**
@@ -18,7 +18,7 @@ module.exports = class {
         const value = this.language[term];
         /* eslint-disable new-cap */
         switch (typeof value) {
-            case "function":
+            case `function`:
                 return value(...args);
             default:
                 return value;
@@ -31,20 +31,20 @@ module.exports = class {
 
     printDate(pdate, isLongDate) {
         let monthNames = [
-            "janvier", "février", "mars",
-            "avril", "mai", "juin", "juillet",
-            "août", "septembre", "octobre",
-            "novembre", "décembre"
+            `janvier`, `février`, `mars`,
+            `avril`, `mai`, `juin`, `juillet`,
+            `août`, `septembre`, `octobre`,
+            `novembre`, `décembre`
         ];
 
         let day = pdate.getDate();
         let monthIndex = pdate.getMonth();
         let year = pdate.getFullYear();
-        let hour = pdate.getHours() < 10 ? "0" + pdate.getHours() : pdate.getHours();
-        let minute = pdate.getMinutes() < 10 ? "0" + pdate.getMinutes() : pdate.getMinutes();
+        let hour = pdate.getHours() < 10 ? `0` + pdate.getHours() : pdate.getHours();
+        let minute = pdate.getMinutes() < 10 ? `0` + pdate.getMinutes() : pdate.getMinutes();
 
-        let thedate = (isLongDate) ? day + " " + monthNames[monthIndex] + " " + year + " à " + hour + "h" + minute :
-            day + " " + monthNames[monthIndex] + " " + year;
+        let thedate = (isLongDate) ? day + ` ` + monthNames[monthIndex] + ` ` + year + ` à ` + hour + `h` + minute :
+            day + ` ` + monthNames[monthIndex] + ` ` + year;
         return thedate;
     }
 
@@ -66,15 +66,15 @@ module.exports = class {
             isHours = hours > 0,
             isMinutes = minutes > 0;
         let pattern =
-            (!isDays ? "" : (isMinutes || isHours) ? "{days} jours, " : "{days} jours et ") +
-            (!isHours ? "" : (isMinutes) ? "{hours} heures, " : "{hours} heures et ") +
-            (!isMinutes ? "" : "{minutes} minutes et ") + ("{seconds} secondes");
+            (!isDays ? `` : (isMinutes || isHours) ? `{days} jours, ` : `{days} jours et `) +
+            (!isHours ? `` : (isMinutes) ? `{hours} heures, ` : `{hours} heures et `) +
+            (!isMinutes ? `` : `{minutes} minutes et `) + (`{seconds} secondes`);
         let sentence = pattern
-            .replace("{duration}", pattern)
-            .replace("{days}", days)
-            .replace("{hours}", hours)
-            .replace("{minutes}", minutes)
-            .replace("{seconds}", seconds);
+            .replace(`{duration}`, pattern)
+            .replace(`{days}`, days)
+            .replace(`{hours}`, hours)
+            .replace(`{minutes}`, minutes)
+            .replace(`{seconds}`, seconds);
         return sentence;
     }
-}
+};
