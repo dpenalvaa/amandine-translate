@@ -457,21 +457,20 @@ module.exports = class {
                 NO_OPTION: `${e.error} Merci de spécifier une action: creat, edit, reroll, end, config, delete`,
                 MESSAGES: {
                     giveaway: `🎉🎉 **GIVEAWAY** 🎉🎉`,
-                    giveawayEnded: `🎉🎉 **GIVEAWAY ENDED** 🎉🎉`,
-                    timeRemaining: `Time remaining: **{duration}**!`,
-                    inviteToParticipate: `React with 🎉 to participate!`,
-                    winMessage: `Congratulations, {winners}! You won **{prize}**!`,
+                    giveawayEnded: `🎉🎉 **GIVEAWAY TERMINÉ** 🎉🎉`,
+                    timeRemaining: `Temps restant: **{duration}**!`,
+                    inviteToParticipate: `Réagissez avec 🎉 pour participer!`,
+                    winMessage: `Bravo, {winners}! Vous avez gagné **{prize}**!`,
                     embedFooter: `Giveaways`,
-                    noWinner: `Giveaway cancelled, no valid participations.`,
-                    hostedBy: `Hosted by: {user}`,
-                    winners: `winner(s)`,
-                    endedAt: `Ended at`,
+                    noWinner: `Giveawy annulé, aucune participation valide.`,
+                    hostedBy: `Par: {user}`,
+                    winners: `gagnant(s)`,
+                    endedAt: `Fini a`,
                     units: {
-                        seconds: `seconds`,
+                        seconds: `secondes`,
                         minutes: `minutes`,
-                        hours: `hours`,
-                        days: `days`,
-                        pluralS: false // Not needed, because units end with a S so it will automatically removed if the unit value is lower than 2
+                        hours: `heures`,
+                        days: `jours`,
                     }
                 }
             },
