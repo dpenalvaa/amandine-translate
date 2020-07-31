@@ -951,7 +951,6 @@ module.exports = class {
                 USAGE: `$triggered <@membre>`,
                 EXAMPLES: `$triggered @Mr¤KayJayDee`,
             },
-            // ====================
             AD: {
                 DESCRIPTION: `Permet de générer une image ad avec votre photo de profil ou celle de vos amis.`,
                 USAGE: `$ad <@membre>`,
@@ -1272,9 +1271,7 @@ module.exports = class {
      * @returns {string|Function}
      */
     get(term, ...args) {
-        //if (!this.enabled && this !== this.store.default) return this.store.default.get(term, ...args);
         const value = this.language[term];
-        /* eslint-disable new-cap */
         switch (typeof value) {
             case `function`:
                 return value(...args);
