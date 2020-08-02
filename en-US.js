@@ -8,11 +8,11 @@ module.exports = class {
         this.language = {
             UTILS: {
                 ERROR_TITLE: `ERREUR`,
-                ERROR_MESSAGE: `${e.servererror} Une erreur interne est survenue, veuillez réessayer ultérieurement.`,
-                ERROR: (error) => `Voici le code d'erreur, merci de la reporter a l'équipe du staff du bot.\n\`\`\`${error}\`\`\``,
-                NO_ENABLED: `${e.error} Désolé cette commande n'est pas disponible maintenant, rééssayez plus tard.`,
-                STAFF_ONLY: `${e.error} Désolé cette commande est reservé a l'équipe du staff du bot.`,
-                OWNER_ONLY: `${e.error} Désolé cette commande est réservé au propriétaire du serveur.`,
+                ERROR_MESSAGE: `${e.servererror} An internal error has occurred, please try again later.`,
+                ERROR: (error) => `Here is the error code, please report it to the bot staff team.\n\`\`\`${error}\`\`\``,
+                NO_ENABLED: `${e.error} Sorry this command is not available now, please try again later.`,
+                STAFF_ONLY: `${e.error} Sorry this command is reserved for the bot staff team.`,
+                OWNER_ONLY: `${e.error} Sorry this command is reserved for the server owner.`,
                 NSFW: `${e.error} Désolé mais ceci est une commande de contenu NSFW, elle doit donc être effectuée dans un canal NSFW.`,
                 NO_PERMISSION_CLIENT: (permission) => `${e.error} Je n'ai pas la/les permission(s) suivantes : \n\`\`${permission}\`\``,
                 NO_PERMISSION_USER: (permission) => `${e.error} Vous n'avez pas la/les permission(s) suivantes : \n\`\`${permission}\`\``,
