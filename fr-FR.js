@@ -138,7 +138,7 @@ module.exports = class {
                 DESCRIPTION: `Affiche les informations sur le bot.`,
                 USAGE: `$botinfos`,
                 EXAMPLES: `$botinfos`,
-                TITLE: (botName) => `**Statistique d'${botName}**\n[Support](${c.supportServer}) | [Traductions](${c.translateGithub})`,
+                TITLE: (botName) => `**Statistique d'${botName}**\n[Serveur de Support](${c.supportServer}) | [Traductions](${c.translateGithub}) | [Soutenez-moi](https://www.buymeacoffee.com/amandine)`,
                 OWNER: `${e.crown} | Propriétaire`,
                 VERSION: `${e.bot} | Version du bot`,
                 DATE: `${e.calendar} | Date de création`,
