@@ -861,6 +861,11 @@ module.exports = class {
                 USAGE: `$blur`,
                 EXAMPLES: `$blur`,
             },
+            URBAN: {
+                DESCRIPTION: `Affiche une photo urban.`,
+                USAGE: `$urban`,
+                EXAMPLES: `$urban`,
+            },
             GAY: {
                 DESCRIPTION: `Applique le filtre gay a votre photo de profil ou celle de vos amis.`,
                 USAGE: `$gay`,
