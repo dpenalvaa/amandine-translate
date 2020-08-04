@@ -723,7 +723,7 @@ module.exports = class {
                 USAGE: `$setsex <sexe>`,
                 EXAMPLES: `$setsex homme\n$setsex femme`,
                 NO_ARGS: (sexs) => `${e.error} Merci de spécifier un sexe. Voici ceux disponibles: ${sexs}`,
-                INVALID_SEX: (sexs) => `${e.error} Merci de spécifier une langue valide. Voici celles disponibles: ${sexs}`,
+                INVALID_SEX: (sexs) => `${e.error} Merci de spécifier un sexe valide. Voici celles disponibles: ${sexs}`,
                 SUCCESS: (sex) => `${e.success} Votre sexe est mainenant configuré sur: ${sex}`,
             },
             PROFILE: {
@@ -1265,7 +1265,7 @@ module.exports = class {
                 CAPS: `Voulez vous des **majuscules** dans votre mot de passe ?`,
                 NUMBER: `Voulez vous des **chiffres** dans votre mot de passe ?`,
                 SYMBOLS: `Voulez vous des **symboles** dans votre mot de passe ?`,
-                SUCCESS: `${e.error} Votre mot de passe à bien été généré et vous à été envoyé en message privés.`,
+                SUCCESS: `${e.success} Votre mot de passe à bien été généré et vous à été envoyé en message privés.`,
             },
         };
     }
