@@ -1266,6 +1266,17 @@ module.exports = class {
                 SYMBOLS: `Voulez vous des **symboles** dans votre mot de passe ?`,
                 SUCCESS: `${e.success} Votre mot de passe a bien été généré et vous a été envoyé en message privé.`,
             },
+            LEADERBOARD: {
+                DESCRIPTION: `Affiche le top 10 du serveur. (monnaie ou réputation)`,
+                USAGE: `$leaderboard <rep/money>`,
+                EXAMPLES: `$leaderboard rep\n$leaderboard money`,
+                REP: `Voici les utilisateurs les plus réputés du serveur:`,
+                MONEY: `Voici les utilisateurs les plus riches du serveur:`,
+                NOTHING: `${e.error} Aucune informations à afficher...`,
+                NO_ACTION: `${e.error} Merci de spécifier une catégorie: reputation, money.`,
+                REP_POINTS: (points) => `${points} point${points === 1 ? `` : `s`} de reputation.`,
+                MONEY_AMOUNT: (amount) => `${amount} €`,
+            },
         };
     }
 
