@@ -9,7 +9,7 @@ module.exports = class {
             UTILS: {
                 ERROR_TITLE: `ERREUR`,
                 ERROR_MESSAGE: `${e.servererror} Une erreur interne est survenue, veuillez réessayer ultérieurement.`,
-                ERROR: (error) => `Voici le code d'erreur, merci de le reporter à l'équipe du staff du bot.\n\`\`\`${error}\`\`\``,
+                ERROR: (error) => `Voici le code d'erreur, merci de le reporter à l'équipe du staff du bot.  Rejoignez le [serveur](https://discord.gg/Uqd2sQP) de support.\n\`\`\`${error}\`\`\``,
                 NO_ENABLED: `${e.error} Désolé cette commande n'est pas disponible maintenant, réessayez plus tard.`,
                 STAFF_ONLY: `${e.error} Désolé cette commande est reservée à l'équipe du staff du bot.`,
                 OWNER_ONLY: `${e.error} Désolé cette commande est réservée au propriétaire du serveur.`,
@@ -633,7 +633,7 @@ module.exports = class {
                 NO_ARGS: `${e.error} Merci de spécifier une quantité.`,
                 IS_NAN: `${e.error} Merci de vérifier la quantité spécifiée. Notez qu'elle ne peut pas être négative.`,
                 NOT_ENOUGH: `${e.error} Vous n'avez pas cette somme dans votre porte-monnaie, impossible de déposer sur votre compte en banque.`,
-                DEP_AMOUNT: (isAll, amount) => `Vous venez de déposer ${isAll ? ` tout votre argent ` : `${amount}€`} sur votre compte en banque.`,
+                DEP_AMOUNT: (isAll, amount) => `${e.success} Vous venez de déposer ${isAll ? `tout votre argent ` : `${amount}€`} sur votre compte en banque.`,
             },
             WITHDRAW: {
                 DESCRIPTION: `Permet de retirer de l'argent sur votre porte-monnaie.`,
@@ -642,7 +642,7 @@ module.exports = class {
                 NO_ARGS: `${e.error} Merci de spécifier une quantité.`,
                 IS_NAN: `${e.error} Merci de vérifier la quantité spécifiée. Notez qu'elle ne peut pas être négative.`,
                 NOT_ENOUGH: `${e.error} Vous n'avez pas cette somme sur votre compte en banque, impossible de retirer dans votre porte-monnaie.`,
-                WD_AMOUNT: (isAll, amount) => `Vous venez de retirer ${isAll ? ` tout votre argent ` : `${amount}€`} sur votre porte-monnaie.`,
+                WD_AMOUNT: (isAll, amount) => `${e.success} Vous venez de retirer ${isAll ? `tout votre argent ` : `${amount}€`} sur votre porte-monnaie.`,
             },
             REPUTATION: {
                 DESCRIPTION: `Permet de donner un point de réputation à un autre membre.`,
@@ -717,13 +717,16 @@ module.exports = class {
                 TITLE: (username) => `Biographie de ${username}`,
                 NEWBIO: (newbio) => `Votre nouvelle biographie a bien été enregistrée :\n\`\`\`${newbio}\`\`\``,
             },
-            SETSEX: {
-                DESCRIPTION: `Permet de configurer la langue du bot.`,
-                USAGE: `$setsex <sexe>`,
-                EXAMPLES: `$setsex homme\n$setsex femme`,
-                NO_ARGS: (sexs) => `${e.error} Merci de spécifier un sexe. Voici ceux disponibles: ${sexs}`,
-                INVALID_SEX: (sexs) => `${e.error} Merci de spécifier un sexe valide. Voici ceux disponibles: ${sexs}`,
-                SUCCESS: (sex) => `${e.success} Votre sexe est mainenant configuré sur: ${sex}`,
+            SETGENDER: {
+                DESCRIPTION: `Permet de configurer votre genre.`,
+                USAGE: `$setgender <genre>`,
+                EXAMPLES: `$setgender homme\n$setgender femme\n$setgender reset`,
+                NO_ARGS: (sexs) => `${e.error} Merci de spécifier un genre. Voici ceux disponibles: ${sexs}`,
+                RESET: `${e.success} Votre genre à bien été réinitialisé.`,
+                INVALID_SEX: (sexs) => `${e.error} Merci de spécifier un genre valide. Voici ceux disponibles: ${sexs}`,
+                SUCCESS: (sex) => `${e.success} Votre genre est mainenant configuré sur: ${sex}`,
+                MALE: `Homme`,
+                FEMALE: `Femme`,
             },
             PROFILE: {
                 DESCRIPTION: `Permet de voir votre profil ou celui d'un membre.`,
@@ -1133,7 +1136,7 @@ module.exports = class {
                 DESCRIPTION: `Permet de voir les informations du serveur.`,
                 USAGE: `$serverinfo`,
                 EXAMPLES: `$serverinfo`,
-                INFOS: (owner, name, date, members, humans, bots, channels, roles, emojis, online, dnd, idle, offline, streaming, region, verification) => `**${name} - Informations**\n\n👑 | Propriétaire du serveur: **${owner}**\n🔤 | Nom du serveur: **${name}**\n🕐 | Date de création: **${date}**\n🌍 | Région du serveur: **${region}**\n🛂 | Niveau de vérification: **${verification}**\n🔢 | Nombre de membres: **${members}**\n👨 | Humains: **${humans}**\n🤖 | Bots: **${bots}**\n🔋 | Status des membres: \n\t> ${e.status.online} **${online}** membres en ligne\n> ${e.status.dnd} **${dnd}** membres en ne pas déranger\n> ${e.status.idle} **${idle}** membres inactifs\n> ${e.status.streaming} **${streaming}** membres en streaming\n> ${e.status.offline} **${offline}** membres hors ligne\n📌 | Nombre de salon: **${channels}**\n📕 | Nombre de rôles: **${roles}**\n💯 | Nombre d'émojis: **${emojis}**`,
+                INFOS: (owner, name, date, members, humans, bots, channels, roles, emojis, online, dnd, idle, offline, streaming, region, verification) => `**${name} - Informations**\n\n👑 | Propriétaire du serveur: **${owner}**\n🔤 | Nom du serveur: **${name}**\n🕐 | Date de création: **${date}**\n🌍 | Région du serveur: **${region}**\n🛂 | Niveau de vérification: **${verification}**\n🔢 | Nombre de membres: **${members}**\n👨 | Humains: **${humans}**\n🤖 | Bots: **${bots}**\n🔋 | Status des membres: \n- ${e.status.online} **${online}** membres en ligne\n- ${e.status.dnd} **${dnd}** membres en ne pas déranger\n- ${e.status.idle} **${idle}** membres inactifs\n- ${e.status.streaming} **${streaming}** membres en streaming\n- ${e.status.offline} **${offline}** membres hors ligne\n📌 | Nombre de salon: **${channels}**\n📕 | Nombre de rôles: **${roles}**\n💯 | Nombre d'émojis: **${emojis}**`,
             },
             MEMBERINFO: {
                 DESCRIPTION: `Permet de voir les informations d'un membre.`,
@@ -1264,7 +1267,7 @@ module.exports = class {
                 CAPS: `Voulez vous des **majuscules** dans votre mot de passe ?`,
                 NUMBER: `Voulez vous des **chiffres** dans votre mot de passe ?`,
                 SYMBOLS: `Voulez vous des **symboles** dans votre mot de passe ?`,
-                SUCCESS: `${e.success} Votre mot de passe a bien été généré et vous a été envoyé en message privé.`,
+                SUCCESS: `${e.success} Votre mot de passe a bien été généré et vous a été envoyé en message privé. Si vou ne l'avez pas reçu c'est que vos messages privé sont bloqués et vous devez les activer.`,
             },
             LEADERBOARD: {
                 DESCRIPTION: `Affiche le top 10 du serveur. (monnaie ou réputation)`,
@@ -1276,6 +1279,13 @@ module.exports = class {
                 NO_ACTION: `${e.error} Merci de spécifier une catégorie: reputation, money.`,
                 REP_POINTS: (points) => `${points} point${points === 1 ? `` : `s`} de reputation.`,
                 MONEY_AMOUNT: (amount) => `${amount} €`,
+            },
+            MYDATA: {
+                DESCRIPTION: `Vous envoie un fichier contenant toutes les données que nous avons sauvegardé par rapport a votre compte/serveur.`,
+                USAGE: `$mydata <user/member/guild>`,
+                EXAMPLES: `$mydata user\n$mydata member\n$mydata guild`,
+                SENDING: `${e.success} Le fichier va vous être envoyé en messages privés, si vous ne l'avez pas reçu activez vos message privés ici et réessayez.`,
+                NO_ARGS: `${e.error} Merci de spécifier une option: user, member, guild.`,
             },
         };
     }
