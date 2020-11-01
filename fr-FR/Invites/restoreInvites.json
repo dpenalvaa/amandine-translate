@@ -1,0 +1,13 @@
+{
+    "DESCRIPTION": "Permet de restaurer les invitations après une reinitialisation de celles-ci.",
+    "USAGE": "$restoreinvites [@membre]",
+    "EXAMPLES": "$restoreinvites @Mr¤KayJayDee",
+    "CONFIRM_ALL": "{{loading}} Merci de confirmer que vous êtes sûr de vouloir restorer les invitations de tous les membres du serveur. Tapez ``-confirm`` pour confirmer ou ``cancel`` pour annuler.",
+    "CONFIRM_MEMBER": "{{loading}} Merci de confirmer que vous êtes sûr de vouloir restorer les invitations du/des membre(s) mentionné(s). Tapez ``-confirm`` pour confirmer ou ``cancel`` pour annuler.",
+    "CANCELLED_ALL": "La restoration des invitations de tous les membres a été annulée.",
+    "CANCELLED_MEMBER": "La restoration des invitations du/des membre(s) mentionné(s) a été annulée.",
+    "SUCCESS_ALL": "Les invitations de tous les membres ont bien été restorées.",
+    "SUCCESS_MEMBER": "Les invitations du/des membres mentionné(s) ont bien été restorées.",
+    "TIMEOUT_ALL": "Le temps est écoulé, vous n'avez pas validé que vous vouliez restorer les invitations de tous les membres du serveur.",
+    "TIMEOUT_MEMBER": "Le temps est écoulé, vous n'avez pas validé que vous vouliez restorer les invitations du/des membre(s) mentionné(s)."
+}

@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet faire tourner la machine à sous.",
+    "USAGE": "$slot",
+    "EXAMPLES": "$slot",
+    "WIN": "Gagné",
+    "LOSE": "Perdu"
+}

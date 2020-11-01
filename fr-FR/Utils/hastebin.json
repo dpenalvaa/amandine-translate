@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de coller un lien sur hastebin.",
+    "USAGE": "$hastebin <texte>",
+    "EXAMPLES": "$hastebin Salut, je suis Amandine, je suis le meilleur des bots.",
+    "NO_CONTENT": "Merci de spécifier un message.",
+    "SUCCESS": "Votre texte a bien été enregistré sur le lien suivant: {{result}}."
+}

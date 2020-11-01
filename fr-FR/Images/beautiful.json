@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Permet de générer une image beautiful avec votre photo de profil ou celle de vos amis.",
+    "USAGE": "$beautiful <@membre>",
+    "EXAMPLES": "$beautiful @Mr¤KayJayDee"
+}

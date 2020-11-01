@@ -1,0 +1,13 @@
+{
+    "DESCRIPTION": "Permet de voler un autre membre tout les 12h.",
+    "USAGE": "$rob <@membre>",
+    "EXAMPLES": "$rob @Mr¤KayJayDee",
+    "TITLE": "{{username}} vient de voler un autre membre.",
+    "TIME": "Merci de patienter encore {{hours}}h {{minutes}}m {{seconds}}s avant de pouvoir voler quelqu'un d'autre.",
+    "ROB": "Vous venez de voler {{amount}}€.",
+    "NO_MENTION": "Merci de mentionner un membre.",
+    "INVALID": "Vous ne pouvez pas voler un bot ni vous-même.",
+    "NOTHING_TO_ROB": "Ce membre n'a rien à voler.",
+    "NEED_MIN": "Vous devez avoir minimum 250€ dans votre porte-monnaie pour pouvoir voler quelqu'un.",
+    "FAIL": "Vous avez raté votre vol et perdez {{amount}}€"
+}

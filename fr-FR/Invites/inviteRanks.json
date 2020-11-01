@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Permet de voir les rôles récompenses d'invitations du serveur.",
+    "USAGE": "$inviteranks",
+    "EXAMPLES": "$inviteranks",
+    "NO_RANKS": "Il n'y a aucun rôle configuré sur le serveur.",
+    "DELETED": "Le rôle assigné à {{invites}} invitations a été suprimmé et n'est plus accessible.\n",
+    "RANKS": "{{role}} (**{{invites}}** invitations)\n",
+    "RANK": "Voici les rôles disponibles :"
+}

@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Permet de detecter les nouvelles invitations non enregistrées dans le cache.",
+    "USAGE": "$fetchinvites",
+    "EXAMPLES": "$fetchinvites",
+    "SUCCESS": "Les invitations ont bien été actualisées."
+}

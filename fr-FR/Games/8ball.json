@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de poser une question à la boule magique.",
+    "USAGE": "$8ball <votre question>",
+    "EXAMPLES": "$8ball Es-tu le meilleur des bots ?",
+    "NO_ARGS": "Merci de poser une question.",
+    "NOT_A_QUESTION": "Ceci n'est pas une question, assurez vous qu'elle se termine bien par un `?`"
+}

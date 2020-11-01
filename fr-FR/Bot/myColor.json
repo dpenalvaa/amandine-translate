@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Permet de choisir la couleur des embeds du bot.",
+    "USAGE": "$mycolor <couleur hexadecimale>",
+    "EXAMPLES": "$mycolor #FFFFFF\n$mycolor reset",
+    "RESET": "Votre couleur a bien été réinitialisée sur ``Aléatoire``.",
+    "MOREINFOS": "Cliquez ici pour plus d'infos.",
+    "NO_ARGS": "Merci de spécifier une couleur hexadécimale.",
+    "NO_HEX": "Ce n'est pas une couleur hexadécimale valide.",
+    "SUCCESS": "Votre couleur a bien ete changée en ``${color}``"
+}

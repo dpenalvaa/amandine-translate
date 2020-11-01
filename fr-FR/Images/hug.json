@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Permet de faire un câlin à un membre.",
+    "USAGE": "$hug <@membre>",
+    "EXAMPLES": "$hug @Mr¤KayJayDee",
+    "MESSAGE": "**{{author}}** vient de faire un câlin à **{{user}}**"
+}

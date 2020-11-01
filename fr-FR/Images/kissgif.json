@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Permet de faire un bisou (gif) à un membre.",
+    "USAGE": "$kissgif <@membre>",
+    "EXAMPLES": "$kissgif @Mr¤KayJayDee",
+    "MESSAGE": "**{{author}}** vient de faire un bisou à **{{user}}**"
+}

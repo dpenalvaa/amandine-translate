@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Applique le filtre sépia à votre photo de profil ou celle de vos amis.",
+    "USAGE": "$sepia",
+    "EXAMPLES": "$sepia"
+}

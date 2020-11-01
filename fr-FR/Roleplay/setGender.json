@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Permet de configurer votre genre.",
+    "USAGE": "$setgender <genre>",
+    "EXAMPLES": "$setgender homme\n$setgender femme\n$setgender reset",
+    "NO_ARGS": "Merci de spécifier un genre. Voici ceux disponibles: {{available}}",
+    "RESET": "Votre genre à bien été réinitialisé.",
+    "INVALID_SEX": "Merci de spécifier un genre valide. Voici ceux disponibles: {{available}}",
+    "SUCCESS": "Votre genre est mainenant configuré sur: {{gender}}"
+}

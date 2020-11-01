@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de générer une image clignotement avec votre photo de profil et celle de vos amis.",
+    "USAGE": "$blink <@membre>  [délais (en ms)]",
+    "EXAMPLES": "$blink @Mr¤KayJayDee 2000",
+    "NO_MENTION": "${e.error} Merci de mentionner un membre.",
+    "INVALID": "${e.error} Vous ne pouvez pas appliquer cet effet à vous-même.",
+    "IS_NAN": "${e.error} Merci de spécifier un nombre valide. (en ms)"
+}

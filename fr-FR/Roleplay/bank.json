@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de voir la quantité de monnaie que vous avez dans votre compte en banque.",
+    "USAGE": "$bank",
+    "EXAMPLES": "$bank",
+    "TITLE": "Compte en banque de {{username}}",
+    "INFOS": "Vous avez actuellement {{bank}} € dans votre compte en banque."
+}

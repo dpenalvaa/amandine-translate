@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de récupérer une récompense tout les 30jours.",
+    "USAGE": "$monthly",
+    "EXAMPLES": "$monthly",
+    "TITLE": "Récompense mensuelle de {{username}}",
+    "TIME": "Merci de patienter encore {{days}}j {{hours}}h {{minutes}}m {{seconds}}s avant de pouvoir récupérer votre prochaine récompense.",
+    "MONTHLY": "Vous venez de récolter {{amount}}€."
+}

@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Permet de générer une image triggered avec votre photo de profil ou celle de vos amis.",
+    "USAGE": "$triggered <@membre>",
+    "EXAMPLES": "$triggered @Mr¤KayJayDee"
+}

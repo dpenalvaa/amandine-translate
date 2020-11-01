@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Permet de voir les informations d'un membre.",
+    "USAGE": "$memberinfo <@membre/ID>",
+    "EXAMPLES": "$memberinfo @Mr¤KayJayDee\n$memberinfo 123456789\n$memberinfo Mr¤KayJayDee",
+    "INFOS": "**Informations sur le membre:** {{member}}\n\n🔤 | Nom: **{{name}}**\n#️⃣ | Discriminant: **#{{discriminator}}**\n🆔 | ID: **{{id}}**\n📛 | Badges: {{badges}}\n🏹 | Type: **{{type}}**\n🚪 | Arrivée sur le serveur: **{{joinedAt}}**\n🛠️ | Date de création du compte: **{{createdAt}}**\n⚙️ | Kickable: **{{kickable}}**\n⚙️ | Bannissable: **{{bannable}}**\n🔢 | Position d'arrivée: **{{joinPosition}}**\n🔁 | Ordre d'arrivée: {{joinOrder}}"
+}

@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Permet de configurer votre biographie.",
+    "USAGE": "$setbio <votre biographie>",
+    "EXAMPLES": "$setbio Salut, je suis Amandine, je suis le meilleur des bots. 😉",
+    "NO_TEXT": "Merci de spécifier un texte de biographie.",
+    "TOO_LONG": "Votre biographie ne doit pas dépasser les 1000 caractères.",
+    "TITLE": "Biographie de {{username}}",
+    "NEWBIO": "Votre nouvelle biographie a bien été enregistrée :\n```{{newBiography}}```"
+}

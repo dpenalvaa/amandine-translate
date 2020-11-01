@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de configurer les commandes activées ou désactivées sur votre serveur.",
+    "USAGE": "$configcommand <nom de la commande>",
+    "EXAMPLES": "$configcommand help",
+    "NO_ARGS": "Merci de spécifier le nom d'une commande.",
+    "ENABLED": "Cette commande est maintenant activée.",
+    "DISABLED": "Cette commande est maintenant désactivée."
+}

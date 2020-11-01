@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de récupérer une récompense toutes les 6h.",
+    "USAGE": "$work",
+    "EXAMPLES": "$work",
+    "TITLE": "Récompense de travail de {{username}}",
+    "TIME": "Merci de patienter encore {{hours}}h {{minutes}}m {{seconds}}s avant de pouvoir récupérer votre prochaine récompense.",
+    "WORK": "Vous venez de récolter {{amount}}€."
+}

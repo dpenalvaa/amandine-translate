@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de tirer un dé.",
+    "USAGE": "$dice <nombre minimum> <nombre maximum>",
+    "EXAMPLES": "$dice 1 6\n$dice 100 200",
+    "INVALID": "Merci de spécifier deux nombres valides, le premier étant le plus petit.",
+    "RESULT": "Le dé est tombé sur {{result}}."
+}

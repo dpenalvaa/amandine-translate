@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Affiche une photo de fille.",
+    "USAGE": "$girl",
+    "EXAMPLES": "$girl"
+}

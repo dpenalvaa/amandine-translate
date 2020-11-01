@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Permet de retirer de l'argent sur votre porte-monnaie.",
+    "USAGE": "$withdraw <quantité>",
+    "EXAMPLES": "$withdraw 100\n$withdraw all",
+    "NO_ARGS": "Merci de spécifier une quantité.",
+    "IS_NAN": "Merci de vérifier la quantité spécifiée. Notez qu'elle ne peut pas être négative.",
+    "NOT_ENOUGH": "Vous n'avez pas cette somme sur votre compte en banque, impossible de retirer dans votre porte-monnaie.",
+    "ALL": "Vous venez de retirer tout votre argent sur votre porte-monnaie",
+    "AMOUNT": "Vous venez de retirer {{amount}}€ sur votre porte-monnaie"
+}

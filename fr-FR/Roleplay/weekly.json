@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de récupérer une récompense tous les 7j.",
+    "USAGE": "$weekly",
+    "EXAMPLES": "$weekly",
+    "TITLE": "Récompense hebdomadaire de {{username}}",
+    "TIME": "Merci de patienter encore {{days}}j {{hours}}h {{minutes}}m {{seconds}}s avant de pouvoir récupérer votre prochaine récompense.",
+    "WEEKLY": "Vous venez de récolter {{amount}}€."
+}

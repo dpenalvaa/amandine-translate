@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de voir la quantité de monnaie que vous avez dans votre porte-monnaie.",
+    "USAGE": "$balance",
+    "EXAMPLES": "$balance",
+    "TITLE": "Porte monnaie de {{username}}",
+    "INFOS": "Vous avez actuellement {{balance}}€ en dans votre porte-monnaie."
+}

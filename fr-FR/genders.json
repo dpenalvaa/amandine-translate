@@ -1,0 +1,11 @@
+{
+    "list": [{
+        "name": "male",
+        "aliases": ["homme", "gars", "mec", "garçon", "garcon"]
+    }, {
+        "name": "female",
+        "aliases": ["femme", "fille", "meuf", "dame", "madame"]
+    }],
+    "MALE": "Homme",
+    "FEMALE": "Femme"
+}

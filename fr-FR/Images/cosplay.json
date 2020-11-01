@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Affiche une photo de cosplay.",
+    "USAGE": "$cosplay",
+    "EXAMPLES": "$cosplay"
+}

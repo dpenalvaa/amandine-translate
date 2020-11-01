@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de récupérer une récompense toutes les 24h.",
+    "USAGE": "$daily",
+    "EXAMPLES": "$daily",
+    "TITLE": "Récompense journalière de {{username}}",
+    "TIME": "Merci de patienter encore {{hours}}h {{minutes}}m {{seconds}}s avant de pouvoir récupérer votre prochaine récompense.",
+    "DAILY": "Vous venez de récolter {{amount}}€."
+}

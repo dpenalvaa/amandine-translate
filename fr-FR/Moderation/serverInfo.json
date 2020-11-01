@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Permet de voir les informations du serveur.",
+    "USAGE": "$serverinfo",
+    "EXAMPLES": "$serverinfo",
+    "INFOS": "**{{name}} - Informations**\n\n👑 | Propriétaire du serveur: **{{owner}}**\n🔤 | Nom du serveur: **{{name}}**\n🕐 | Date de création: **{{date}}**\n🌍 | Région du serveur: **{{region}}**\n🛂 | Niveau de vérification: **{{verification}}**\n🔢 | Nombre de membres: **{{memberCount}}**\n👨 | Humains: **{{humans}}**\n🤖 | Bots: **{{bots}}**\n🔋 | Status des membres: \n- {{eonline}} **{{online}}** membres en ligne\n- {{ednd}} **{{dnd}}** membres en ne pas déranger\n- {{eidle}} **{{idle}}** membres inactifs\n- {{estreaming}} **{{streaming}}** membres en streaming\n- {{eoffline}} **{{offline}}** membres hors ligne\n📌 | Nombre de salon: **{{channels}}**\n📕 | Nombre de rôles: **{{roles}}**\n💯 | Nombre d'émojis: **{{emojis}}**"
+}

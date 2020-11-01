@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Permet d'expulser un membre.",
+    "USAGE": "$kick <@membre> [raison]",
+    "EXAMPLES": "$kick @Mr¤KayJayDee\n$kick @Mr¤KayJayDee Trop bon dev",
+    "NO_MENTION": "Merci de mentionner un membre.",
+    "IMPOSSIBLE_KICK": "Impossible d'expluser cet utilisateur.",
+    "NO_REASON": "Aucune raison donnée",
+    "GUILD_RESULT": "Cet utilisateur a bien été expulsé du serveur (Raison: {{reason}})."
+}

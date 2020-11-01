@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Permet de donner un point de réputation à un autre membre.",
+    "USAGE": "$reputation",
+    "EXAMPLES": "$reputation",
+    "TITLE": "{{username}} viens de donner un point de réputation.",
+    "TIME": "Merci de patienter encore {{minutes}}m {{seconds}}s avant de donner un point de réputation à quelqu'un d'autre.",
+    "NO_MENTION": "Merci de mentionner un membre.",
+    "INVALID": "Vous ne pouvez pas donner de points de réputation à un bot, ni à vous-même.",
+    "REP": "Vous venez de donner un point de réputation a {{username}}"
+}

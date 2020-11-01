@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Affiche un graphique avec les statistiques des membres qui ont rejoint le serveur.",
+    "USAGE": "$joinsstats",
+    "EXAMPLES": "$joinsstats",
+    "INVALID": "Merci de spécifier un nombre valide. Entre 1 et 300",
+    "TITLE": "Statistiques de {{name}} depuis {{numberOfDays}} jours.",
+    "PERCENT": "{{total}} ont rejoint, soit {{percent}}% du serveur.",
+    "RANGE": "Statistiques du {{dayRange1}} au {{dayRange2}}"
+}

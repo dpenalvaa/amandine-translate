@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Permet de configurer la langue du bot.",
+    "USAGE": "$lang <langue>",
+    "EXAMPLES": "$lang english\n$lang fr-FR",
+    "NO_ARGS": "Merci de spécifier une langue. Voici celles disponibles: {{langs}}",
+    "INVALID_LANG": "Merci de spécifier une langue valide. Voici celles disponibles: {{langs}}",
+    "SUCCESS": "La langue du bot est mainenant configurée sur: {{lang}}"
+}

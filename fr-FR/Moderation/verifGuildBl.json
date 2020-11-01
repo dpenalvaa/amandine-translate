@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de vérifier s'il y a des utilisateurs blacklistés sur le serveur.",
+    "USAGE": "$verifguildbl",
+    "EXAMPLES": "$verifguildbl",
+    "NO_USER": "Il n'y a aucun utilisateur blacklisté sur le serveur.",
+    "LIST": "Voici la liste des utilisateurs blacklistés."
+}

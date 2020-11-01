@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Permet de voir la quantité de monnaie qu'un utilisateur a dans son porte-monnaie.",
+    "USAGE": "$seebalance <@membre>",
+    "EXAMPLES": "$seebalance @Mr¤KayJayDee",
+    "NO_MENTION": " Merci de mentionner un membre.",
+    "IS_BOT": "Impossible de voir le porte-monnaie d'un bot.",
+    "TITLE": "Porte monnaie de {{username}}",
+    "INFOS": "Cet utilisateur a actuellement {{amount}} € dans son porte-monnaie."
+}

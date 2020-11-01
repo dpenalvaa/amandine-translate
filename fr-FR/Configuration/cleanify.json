@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet d'activer ou pas la suppression automatique des messages du bot.",
+    "USAGE": "$cleanify",
+    "EXAMPLES": "$cleanify",
+    "ENABLED": "Cleanify est maintenant activé.",
+    "DISABLED": "Cleanify est maintenant désactivé"
+}

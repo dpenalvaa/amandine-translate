@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Permet de muter un utilisateur.",
+    "USAGE": "$mute <@membre>",
+    "EXAMPLES": "$mute @Mr¤KayJayDee",
+    "NO_MENTION": "Merci de mentionner un membre.",
+    "SUCCESS": "**{{name}}** a bien été muté."
+}

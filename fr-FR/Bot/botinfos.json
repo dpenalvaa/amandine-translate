@@ -1,0 +1,11 @@
+{
+    "DESCRIPTION": "Affiche les informations sur le bot.",
+    "USAGE": "$botinfos",
+    "EXAMPLES": "$botinfos",
+    "TITLE": "**Statistiques d'{{botName}}**\n[Serveur de Support]({{supportServer}}) | [Traductions]({{translateGithub}}) | [Soutenez-moi]({{buyMeACoffee}})",
+    "OWNER": "Propriétaire",
+    "VERSION": "Version du bot",
+    "DATE": "Date de création",
+    "USERS": "Utilisateurs",
+    "GUILDS": "Serveurs"
+}

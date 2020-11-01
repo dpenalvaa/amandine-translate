@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Permet de bannir un membre.",
+    "USAGE": "$ban <@membre> [raison]",
+    "EXAMPLES": "$ban @Mr¤KayJayDee\n$ban @Mr¤KayJayDee Trop bon dev",
+    "NO_MENTION": "Merci de mentionner un membre.",
+    "IMPOSSIBLE_BAN": "Impossible de bannir cet utilisateur.",
+    "NO_REASON": "Aucune raison donnée",
+    "GUILD_RESULT": "Cet utilisateur a bien été banni du serveur (Raison: {{reason}})."
+}

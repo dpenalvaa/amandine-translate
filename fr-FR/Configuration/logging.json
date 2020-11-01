@@ -1,0 +1,21 @@
+{
+    "DESCRIPTION": "Permet de définir quels logs vous voulez activer ou non.",
+    "USAGE": "$logging <paramètre> <on/off>",
+    "EXAMPLES": "$logging messageUpdate on\n$logging guildUpdate off\n$logging all on\n$logging channel #canal\n$logging off",
+    "INVALID_OR_NULL_CHANNEL": "Merci de vérifier que vous avez bien configuré un canal de logs ou que celui que vous avez configuré est valide avant d'activer les logs.",
+    "NO_PERM": "Merci de me donner la permission d'envoyer des messages dans ce canal ou d'en spécifier un autre",
+    "ENABLED": "Les logs on bien été activés.",
+    "DISABLED": "Les logs ont bien été désactivé.",
+    "INVALID_CHANNEL": "Merci de spécifier un canal valide sur le serveur.",
+    "SUCCESS_CHANNEL": "Le canal de logs a bien été configuré",
+    "LIST": "**Voici la liste des logs configurables.**",
+    "ALL_ENABLED": "Tout les logs ont bien été activés.",
+    "ALL_DISABLED": "Tout les logs ont bien été désactivés.",
+    "NO_PARAM": "Merci de spécifier un log à configurer.",
+    "NO_STATUS": "Merci de spécifier un status : on/off.",
+    "INVALID": "Ce log est inavlide.",
+    "ALREADY_ENABLED": "Ce log est déjà activé.",
+    "LOG_ENABLED": "Le log ${log} a bien été activé.",
+    "ALREADY_DISABLED": "Ce log est déjà désactivé.",
+    "LOG_DISABLED": "Le log ${log} a bien été activé."
+}

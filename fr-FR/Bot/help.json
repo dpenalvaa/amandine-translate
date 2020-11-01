@@ -1,0 +1,14 @@
+{
+    "DESCRIPTION": "Permet d'obtenir la page d'aide du bot et une aide pour les commandes",
+    "USAGE": "$help",
+    "EXAMPLES": "$help",
+    "HELP": "Voici la liste des commandes disponibles :",
+    "COMMAND": "Aide pour la commande : {{command}}",
+    "CMD_DESCRIPTION": "Description :",
+    "CMD_CATEGORY": "Catégorie :",
+    "CMD_USAGE": "Usage :",
+    "CMD_EXAMPLES": "Exemples :",
+    "CMD_ALIASES": "Alias :",
+    "CMD_PERMISSIONS": "Permissions :",
+    "FOOTER": "{{botName}} | Version : {{version}}"
+}

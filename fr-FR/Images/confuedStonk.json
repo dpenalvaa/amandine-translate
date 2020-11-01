@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Permet de générer une image confusedstonk avec votre photo de profil ou celle de vos amis.",
+    "USAGE": "$confusedstonk <@membre>",
+    "EXAMPLES": "$confusedstonk @Mr¤KayJayDee"
+}

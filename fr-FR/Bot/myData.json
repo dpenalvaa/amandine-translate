@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Vous envoie un fichier contenant toutes les données que nous avons sauvegardé par rapport a votre compte/serveur.",
+    "USAGE": "$mydata <user/member/guild>",
+    "EXAMPLES": "$mydata user\n$mydata member\n$mydata guild",
+    "SENDING": "Le fichier va vous être envoyé en messages privés, si vous ne l'avez pas reçu activez vos message privés ici et réessayez.",
+    "NO_ARGS": "Merci de spécifier une option: user, member, guild."
+}

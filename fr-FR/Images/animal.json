@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Affiche une photo d'animal.",
+    "USAGE": "$animal",
+    "EXAMPLES": "$animal"
+}

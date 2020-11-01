@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Permet de retirer un rôle à un membre'.",
+    "USAGE": "$removerole <@membre/ID> <@role/ID>",
+    "EXAMPLES": "$removerole @Mr¤KayJayDee @amis\n$removerole @Mr¤KayJayDee 123456789",
+    "NO_MEMBER": "Merci de mentionner un membre.",
+    "NO_ROLE": "Merci de mentionner un rôle.",
+    "INVALID": "Merci de spécifier un rôle valide et de vérifier que mon plus haut rôle est au dessus du rôle que vous voulez ajouter et au dessus du plus haut rôle du membre à qui vous voulez l'ajouter.",
+    "HAS_NOT_ROLE": "**{{username}}** n'a pas le rôle **{{role}}**.",
+    "SUCCESS": "**{{username}}** à bien perdu le rôle **{{role}}**."
+}

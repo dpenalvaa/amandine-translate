@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Transforme votre photo de profil ou celle de vos amis en un cercle.",
+    "USAGE": "$circle",
+    "EXAMPLES": "$circle"
+}
