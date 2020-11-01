@@ -4,7 +4,7 @@
     "ERROR_MESSAGE": "{{emoji}} Une erreur interne est survenue, veuillez réessayer ultérieurement.",
     "ERROR": "Voici le code d'erreur, merci de le reporter à l'équipe du staff du bot. Rejoignez le [serveur](https://discord.gg/Uqd2sQP) de support.\n```{{code}}```",
     "NO_ENABLED": "{{emoji}} Désolé cette commande n'est pas disponible maintenant, réessayez plus tard.",
-    "WRONG_CHANNEL": "{{emoji}} Ce canal n'est pas un canal pour effectuer des commandes, merci de vous rendre dans le canal <#{{channel}}>.",
+    "WRONG_CHANNEL": "{{emoji}} Ce canal n'est pas un canal pour effectuer des commandes, merci de vous rendre dans le canal {{channel}}.",
     "COMMAND_DISABLED": "",
     "STAFF_ONLY": "{{emoji}} Désolé cette commande est reservée à l'équipe du staff du bot.",
     "OWNER_ONLY": "{{emoji}} Désolé cette commande est réservée au propriétaire du serveur.",
