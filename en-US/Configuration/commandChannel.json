@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to configure the bot's command channel.",
+    "USAGE": "$commandchannel #channel",
+    "EXAMPLES": "$commandchannel #bot-commands\n$commandchannel\n$commandchannel reset",
+    "SUCCESS_RESET": "The command channel has been removed.",
+    "SUCCES_HERE": "The command channel will now be here.",
+    "SUCCESS": "The command channel has been configured correctly."
+}

@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a jail image with your profile picture or that of your friends.",
+    "USAGE": "$jail <@membre>",
+    "EXAMPLES": "$jail @Mr¤KayJayDee"
+}

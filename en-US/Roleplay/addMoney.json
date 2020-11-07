@@ -1,0 +1,11 @@
+{
+    "DESCRIPTION": "Allows you to add money to a user.",
+    "USAGE": "$addmoney <quantity> <@member>",
+    "EXAMPLES": "$addmoney 100 @Mr¤KayJayDee",
+    "NO_AMOUNT": "Please specify a quantity.",
+    "IS_NAN": "Please check the quantity specified. Note that it cannot be negative and must not exceed 10,000.",
+    "NO_MENTION": "Merci de mentionner un membre.",
+    "IS_BOT": "Cannot add money to a bot.",
+    "TITLE": "Addition of change in the wallet of {{username}}.",
+    "RESULT": "This user had {{startBalance}}€, you just added {{toAdd}}€ to him, he now has {{newBalance}}€ in his wallet."
+}

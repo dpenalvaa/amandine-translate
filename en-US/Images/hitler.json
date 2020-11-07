@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a hitler image with your profile picture or that of your friends.",
+    "USAGE": "$hitler <@member>",
+    "EXAMPLES": "$hitler @Mr¤KayJayDee"
+}

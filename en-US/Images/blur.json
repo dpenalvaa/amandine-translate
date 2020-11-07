@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Apply the blur effect to your profile picture or that of your friends.",
+    "USAGE": "$blur",
+    "EXAMPLES": "$blur"
+}

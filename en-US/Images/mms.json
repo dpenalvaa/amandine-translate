@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate an mms image with your profile picture or that of your friends.",
+    "USAGE": "$mms <@member>",
+    "EXAMPLES": "$mms @Mr¤KayJayDee"
+}

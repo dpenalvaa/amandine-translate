@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a delete image with your profile picture or that of your friends.",
+    "USAGE": "$delete <@member>",
+    "EXAMPLES": "$delete @Mr¤KayJayDee"
+}

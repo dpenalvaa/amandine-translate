@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows to paste a link on hastebin.",
+    "USAGE": "$hastebin <text>",
+    "EXAMPLES": "$hastebin Hi, I am Amandine, I am the best of bots.",
+    "NO_CONTENT": "Please specify a message.",
+    "SUCCESS": "Your text has been saved on the following link: {{result}}."
+}

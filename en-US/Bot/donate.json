@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allow you to the see informations on how to support the project.",
+    "USAGE": "$donate",
+    "EXAMPLES": "$donate",
+    "TITLE": "Here is how you can support the project.",
+    "INFOS": "You can `buy me a coffee` by clicking on this link [BuyMeACoffee.com] ({{buyMeACoffee}}).\nYou can also send whatever PayPal amount you want to this address: `{{paypal}}`. Nothing is forced, you are free to help me or not. :wink:"
+}

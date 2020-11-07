@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Allows you to withdraw money from your wallet.",
+    "USAGE": "$withdraw <quantity>",
+    "EXAMPLES": "$withdraw 100\n$withdraw all",
+    "NO_ARGS": "Please specify a quantity.",
+    "IS_NAN": "Please check the quantity specified. Note that it cannot be negative.",
+    "NOT_ENOUGH": "You do not have this amount in your bank account, you cannot withdraw from your wallet.",
+    "ALL": "You just withdraw all your money from your wallet",
+    "AMOUNT": "You have just withdrawn {{amount}}€ on your wallet"
+}

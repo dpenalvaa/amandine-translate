@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Let you baka a member.",
+    "USAGE": "$baka <@member>",
+    "EXAMPLES": "$baka @Mr¤KayJayDee",
+    "MESSAGE": "**{{{author}}** tells **{{user}}** that he is a baka"
+}

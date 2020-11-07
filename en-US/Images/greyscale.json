@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Apply the black and white filter to your profile picture or that of your friends.",
+    "USAGE": "$greyscale",
+    "EXAMPLES": "$greyscale"
+}

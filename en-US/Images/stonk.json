@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a stonk image with your profile picture or that of your friends.",
+    "USAGE": "$stonk <@member>",
+    "EXAMPLES": "$stonk @Mr¤KayJayDee"
+}

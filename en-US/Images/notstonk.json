@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a notstonk image with your profile picture or that of your friends.",
+    "USAGE": "$notstonk <@member>",
+    "EXAMPLES": "$notstonk @Mr¤KayJayDee"
+}

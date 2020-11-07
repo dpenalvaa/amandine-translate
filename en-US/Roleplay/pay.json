@@ -1,0 +1,12 @@
+{
+    "DESCRIPTION": "Allows to pay a user.",
+    "USAGE": "$pay <quantity> <@member>",
+    "EXAMPLES": "$pay 100 @Mr¤KayJayDee",
+    "NO_AMOUNT": "Please specify a quantity.",
+    "IS_NAN": "Please check the quantity specified. Note that it cannot be negative and must not exceed 10,000.",
+    "NO_MENTION": "Please mention a member.",
+    "IS_BOT": "Cannot pay a bot.",
+    "NOT_ENOUGH": "You do not have this amount in your wallet, payment impossible.",
+    "TITLE": "Payment for {{username}}.",
+    "RESULT": "This user had {{startBalance}}€, you just paid him {{toAdd}}€, he now has {{newBalance}}€ in his wallet."
+}

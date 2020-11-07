@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to change the server name.",
+    "USAGE": "$setservername <new name>",
+    "EXAMPLES": "$setservername Amandine",
+    "NO_ARGS": "Please specify a new name.",
+    "TOO_LONG": "Please specify a name shorter than 100 characters.",
+    "SUCCESS": "The server has been renamed to **{{name}}**."
+}

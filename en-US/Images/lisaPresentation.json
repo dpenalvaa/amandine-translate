@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a lisapresentation image with your profile picture or that of your friends.",
+    "USAGE": "$lisapresentation <your message>",
+    "EXAMPLES": "$lisapresentation Hi, I am Amandine, I am the best of bots."
+}

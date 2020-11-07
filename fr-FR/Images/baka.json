@@ -2,5 +2,5 @@
     "DESCRIPTION": "Permet de baka un membre.",
     "USAGE": "$baka <@membre>",
     "EXAMPLES": "$baka @Mr¤KayJayDee",
-    "MESSAGE": "**${{author}}** vient de baka **{{user}}**"
+    "MESSAGE": "**{{{author}}** vient de traiter **{{user}}** de baka"
 }

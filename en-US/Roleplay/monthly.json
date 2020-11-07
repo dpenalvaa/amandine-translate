@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to collect a reward every 30 days.",
+    "USAGE": "$monthly",
+    "EXAMPLES": "$monthly",
+    "TITLE": "Monthly reward of {{username}}",
+    "TIME": "Please wait {{days}}d {{hours}}h {{minutes}}m {{seconds}}s before you can claim your next reward.",
+    "MONTHLY": "You have just collected {{amount}}€."
+}

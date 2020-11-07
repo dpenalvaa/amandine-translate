@@ -6,7 +6,7 @@
     "START_TITLE": "Démarrer une partie",
     "START": "`{{prefix}}hangman [custom | random]`. Custom par défaut. Custom veut dire qu'un des joueurs va devoir choisir le mot. En Random, le mot sera choisi au hasard par le bot. (Vous pouvez suggérer des mots à ajouter en rejoignant le [serveur de support](https://discord.gg/Uqd2sQP))",
     "JOIN_TITLE": "Rejoindre la partie",
-    "JOIN": "Réagissez avec \"📒\" ou entrer \"join\" dans le chat quand vous voyez un message qui vous le demande..",
+    "JOIN": "Réagissez avec \"📒\" ou entrer \"join\" dans le chat quand vous voyez un message qui vous le demande.",
     "PLAY_TITLE": "Jouer",
     "PLAY": "Quand la partie a démarré et qu'un pendu apparait à l'écran, vous devez trouver le mot. Si vous envoyez une lettre, vous demandez si la lettre est dans le mot. Si vous envoyez plus d'une lettre (un mot) vous demandez si vous avez le bon mot, dans le cas où vous vous trompez, vous êtes éliminé de la partie.",
     "ASK_PLAYERS": "Écrivez \"join\" dans le chat ou réagissez avec \"📒\" pour entrer dans la partie, vous avez 10 secondes.",

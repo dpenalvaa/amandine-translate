@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows to send a message by the bot.",
+    "USAGE": "$say <message>",
+    "EXAMPLES": "$say Hi, I'm Amandine, I'm the best of bots.",
+    "NO_CONTENT": "Please specify a message."
+}

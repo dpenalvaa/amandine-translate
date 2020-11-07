@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a facepalm image with your profile picture or that of your friends.",
+    "USAGE": "$facepalm <@member>",
+    "EXAMPLES": "$facepalm @Mr¤KayJayDee"
+}

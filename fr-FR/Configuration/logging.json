@@ -15,7 +15,7 @@
     "NO_STATUS": "Merci de spécifier un status : on/off.",
     "INVALID": "Ce log est inavlide.",
     "ALREADY_ENABLED": "Ce log est déjà activé.",
-    "LOG_ENABLED": "Le log ${log} a bien été activé.",
+    "LOG_ENABLED": "Le log {{log}} a bien été activé.",
     "ALREADY_DISABLED": "Ce log est déjà désactivé.",
-    "LOG_DISABLED": "Le log ${log} a bien été activé."
+    "LOG_DISABLED": "Le log {{log}} a bien été activé."
 }

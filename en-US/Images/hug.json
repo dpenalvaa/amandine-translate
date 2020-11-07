@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows you to hug a member.",
+    "USAGE": "$hug <@member>",
+    "EXAMPLES": "$hug @Mr¤KayJayDee",
+    "MESSAGE": "**{{author}}** just hugged **{{user}}**"
+}

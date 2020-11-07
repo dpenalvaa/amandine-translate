@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to configure the bot prefix on the server.",
+    "USAGE": "$prefix <new prefix>",
+    "EXAMPLES": "$prefix !!\n$prefix ?",
+    "TOO_LONG": "The new prefix must not exceed 10 characters.",
+    "NO_ARGS": "Please specify a new prefix.",
+    "SUCCESS": "The new prefix is ​​now: {{prefix}}"
+}

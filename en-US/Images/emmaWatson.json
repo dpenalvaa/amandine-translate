@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Shows a photo of Emma Watson.",
+    "USAGE": "$emmawatson",
+    "EXAMPLES": "$emmawatson"
+}

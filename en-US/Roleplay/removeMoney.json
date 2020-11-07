@@ -1,0 +1,12 @@
+{
+    "DESCRIPTION": "Allows you to remove change from a user.",
+    "USAGE": "$removemoney <quantity> <@member>",
+    "EXAMPLES": "$removemoney 100 @Mr¤KayJayDee",
+    "NO_AMOUNT": "Please specify a quantity.",
+    "IS_NAN": "Please check the quantity specified. Note that it cannot be negative and must not exceed 10,000.",
+    "NO_MENTION": "Please mention a member.",
+    "IS_BOT": "Cannot remove currency from a bot.",
+    "NEGATIVE": "The value you entered was too high for the amount this user has, so their wallet was reset to 0.",
+    "TITLE": "Removal of change from {{username}}'s wallet.",
+    "RESULT": "This user had {{startBalance}}€, you have just deleted {{toRemove}}€, he now has {{newBalance}}€ in his wallet."
+}

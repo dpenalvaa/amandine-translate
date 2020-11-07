@@ -5,8 +5,6 @@
     "LOG_TITLE": "Voici la configuration des logs sur ce serveur.",
     "LOG_STATUS": "État des logs :",
     "LOG_CHANNEL": "Canal de log :",
-    "LOG_ACTIVE": "Logs activés :",
-    "LOG_INACTIVE": "Logs désactivés :",
     "INFO": "Voici la configuration actuelle du serveur",
     "PREFIX": "Préfixe",
     "LANG": "Langue",

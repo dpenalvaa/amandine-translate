@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows you to unmute a user.",
+    "USAGE": "$unmute <@member>",
+    "EXAMPLES": "$unmute @Mr¤KayJayDee",
+    "NO_MENTION": "Please mention a member.",
+    "SUCCESS": "**{{name}}** has been unmuted successfully."
+}

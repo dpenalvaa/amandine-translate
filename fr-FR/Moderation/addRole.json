@@ -1,5 +1,5 @@
 {
-    "DESCRIPTION": "Permet d'ajouter un rôle à un membre'.",
+    "DESCRIPTION": "Permet d'ajouter un rôle à un membre.",
     "USAGE": "$addrole <@membre/ID> <@role/ID>",
     "EXAMPLES": "$addrole @Mr¤KayJayDee @amis\n$addrole @Mr¤KayJayDee 123456789",
     "NO_MEMBER": "Merci de mentionner un membre.",

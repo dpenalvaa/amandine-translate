@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate an ad image with your profile picture or that of your friends.",
+    "USAGE": "$ad <@member>",
+    "EXAMPLES": "$ad @Mr¤KayJayDee"
+}

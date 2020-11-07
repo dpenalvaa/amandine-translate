@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Apply the opposite effect to your profile picture or that of your friends.",
+    "USAGE": "$invert",
+    "EXAMPLES": "$invert"
+}

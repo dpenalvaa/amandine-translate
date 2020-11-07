@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Allows you to see the server invitation rewards roles.",
+    "USAGE": "$inviteranks",
+    "EXAMPLES": "$inviteranks",
+    "NO_RANKS": "There is no role configured on the server.",
+    "DELETED": "The role assigned to {{invites}} invitations has been deleted and is no longer accessible.\n",
+    "RANKS": "{{role}} (**{{invites}}** invitations)\n",
+    "RANK": "Here are the available roles:"
+}

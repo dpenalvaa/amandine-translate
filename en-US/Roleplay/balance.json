@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows you to see the amount of money you have in your wallet.",
+    "USAGE": "$balance",
+    "EXAMPLES": "$balance",
+    "TITLE": "{{username}} wallet",
+    "INFOS": "You currently have {{balance}} € in your wallet."
+}

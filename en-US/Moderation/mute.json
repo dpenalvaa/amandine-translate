@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows to mute a user.",
+    "USAGE": "$mute <@member>",
+    "EXAMPLES": "$mute @Mr¤KayJayDee",
+    "NO_MENTION": "Please mention a member.",
+    "SUCCESS": "**{{name}}** has been muted successfully."
+}

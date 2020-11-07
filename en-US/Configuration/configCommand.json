@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to configure which commands are enabled or disabled on your server.",
+    "USAGE": "$configcommand <command name>",
+    "EXAMPLES": "$configcommand help",
+    "NO_ARGS": "Please specify the name of an command.",
+    "ENABLED": "This command is now enabled.",
+    "DISABLED": "This command is now disabled."
+}

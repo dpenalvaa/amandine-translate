@@ -1,0 +1,13 @@
+{
+    "DESCRIPTION": "Allows you to delete all invitations for a member or all members.",
+    "USAGE": "$clearinvites [@member]",
+    "EXAMPLES": "$clearinvites @Mr¤KayJayDee",
+    "CONFIRM_ALL": "{{loading}} Please confirm that you are sure you want to reset invitations for all server members. Type ``-confirm`` to confirm or ``cancel`` to cancel.",
+    "CONFIRM_MEMBER": "{{loading}} Please confirm that you are sure you want to reset the invitations of the mentioned member(s). Type ``-confirm`` to confirm or ``cancel`` to cancel.",
+    "CANCELLED_ALL": "Resetting invitations for all members has been canceled.",
+    "CANCELLED_MEMBER": "Resetting invitations for the mentioned member(s) has been canceled.",
+    "SUCCESS_ALL": "All members' invitations have been successfully reset.",
+    "SUCCESS_MEMBER": "The invitations of the mentioned member (s) have been successfully reset.",
+    "TIMEOUT_ALL": "The time is up, you haven't validated that you want to reset invitations for all server members.",
+    "TIMEOUT_MEMBER": "The time is up, you have not validated that you want to reset the invitations of the mentioned member (s)."
+}

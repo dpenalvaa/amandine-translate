@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a tatoo image with your profile picture or that of your friends.",
+    "USAGE": "$tatoo <@member>",
+    "EXAMPLES": "$tatoo @Mr¤KayJayDee"
+}

@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Allows you to add a role to a member.",
+    "USAGE": "$addrole <@member/ID> <@role/ID>",
+    "EXAMPLES": "$addrole @Mr¤KayJayDee @friends\n$addrole @Mr¤KayJayDee 123456789",
+    "NO_MEMBER": "Please mention a member.",
+    "NO_ROLE": "Please mention a role.",
+    "INVALID": "Please specify a valid role and verify that my highest role is above the role you want to add and above the highest role of the member you want to add it to.",
+    "ALREADY_HAS_ROLE": "**{{username}}** already have the role **{{role}}**.",
+    "SUCCESS": "**{{username}}** just got the role **{{role}}**."
+}

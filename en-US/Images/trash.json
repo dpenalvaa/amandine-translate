@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a trash image with your profile picture or that of your friends.",
+    "USAGE": "$trash <@member>",
+    "EXAMPLES": "$trash @Mr¤KayJayDee"
+}

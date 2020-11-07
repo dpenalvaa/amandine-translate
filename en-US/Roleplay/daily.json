@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to collect a reward every 24 hours.",
+    "USAGE": "$daily",
+    "EXAMPLES": "$daily",
+    "TITLE": "Daily reward from {{username}}",
+    "TIME": "Please wait another {{hours}}h {{minutes}}m {{seconds}}s before you can claim your next reward.",
+    "DAILY": "You have just collected {{amount}}€."
+}

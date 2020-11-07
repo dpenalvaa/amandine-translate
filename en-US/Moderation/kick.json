@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Used to kick a member.",
+    "USAGE": "$kick <@membre> [reason]",
+    "EXAMPLES": "$kick @Mr¤KayJayDee\n$kick @Mr¤KayJayDee Too good dev",
+    "NO_MENTION": "Please mention a member.",
+    "IMPOSSIBLE_KICK": "Cannot kick this user.",
+    "NO_REASON": "No reason given",
+    "GUILD_RESULT": "This user has been kicked out of the server (Reason: {{reason}})."
+}

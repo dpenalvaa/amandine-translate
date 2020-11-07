@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a bed image with your profile picture or that of your friends.",
+    "USAGE": "$bed <@member>",
+    "EXAMPLES": "$bed @Mr¤KayJayDee"
+}

@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows you to configure whether members keep their roles even if they don't have enough invitations.",
+    "USAGE": "$setkeep",
+    "EXAMPLES": "$setkeep",
+    "ENABLED": "Keeprank is now activated.",
+    "DISABLED": "Keeprank is now deactivated."
+}

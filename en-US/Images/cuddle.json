@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows you to caress a member.",
+    "USAGE": "$cuddle <@member>",
+    "EXAMPLES": "$cuddle @Mr¤KayJayDee",
+    "MESSAGE": "**{{author}}** just gave some caress to **{{user}}**"
+}

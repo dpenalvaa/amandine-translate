@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows you to see what permissions you have on the channel or what your friends have.",
+    "USAGE": "$permissions [@member]",
+    "EXAMPLES": "$permissions @Mr¤KayJayDee\n$permissions",
+    "SUCCESS": "Here are the permissions of **{{username}}** on the channel **{{channel}}**:\n\n{{permissions}}"
+}

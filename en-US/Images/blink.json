@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to generate a flashing image with your profile picture and that of your friends.",
+    "USAGE": "$blink <@member>  [delay(in ms)]",
+    "EXAMPLES": "$blink @Mr¤KayJayDee 2000",
+    "NO_MENTION": "Please mention a member.",
+    "INVALID": "You cannot apply this effect to yourself.",
+    "IS_NAN": "Please specify a valid number. (in ms)"
+}

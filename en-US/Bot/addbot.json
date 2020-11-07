@@ -1,0 +1,11 @@
+{
+    "DESCRIPTION": "Allows you to get the bot invitation link.",
+    "USAGE": "$addbot",
+    "EXAMPLES": "$addbot",
+    "TITLE": "Here are the links to invite our dear Amandine.",
+    "CLICK": "Click here.",
+    "NO_PERM": "No permissions.",
+    "MEMBER_PERM": "Member Permissions.",
+    "MOD_PERM": "Moderation Permissions.",
+    "ADMIN_PERM": "Administration Permissions."
+}

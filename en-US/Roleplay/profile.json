@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Allows you to view your profile or that of a member.",
+    "USAGE": "$profile [@member]",
+    "EXAMPLES": "$profile\n$profile @Mr¤KayJayDee",
+    "TITLE": "{{username}} Profile",
+    "BIO": "{{emoji}} **Biography:**\n> {{biography}}",
+    "SEX": "{{emoji}} **Gender:** {{gender}}",
+    "REP": "{{emoji}} **Reputation points:** {{points}}"
+}

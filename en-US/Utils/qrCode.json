@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows you to generate a QR code.",
+    "USAGE": "$qrcode <text>",
+    "EXAMPLES": "$qrcode Hi, I am Amandine, I am the best of bots.",
+    "NO_MESSAGE": "Please specify a message."
+}

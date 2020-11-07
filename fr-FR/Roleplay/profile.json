@@ -4,6 +4,6 @@
     "EXAMPLES": "$profile\n$profile @Mr¤KayJayDee",
     "TITLE": "Profil de {{username}}",
     "BIO": "{{emoji}} **Biographie:** \n> {{biography}}",
-    "SEX": "{{emoji}} **Sexe:** {{gender}}",
+    "SEX": "{{emoji}} **Genre:** {{gender}}",
     "REP": "{{emoji}} **Points de réputation:** {{points}}"
 }

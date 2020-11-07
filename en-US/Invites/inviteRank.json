@@ -1,0 +1,15 @@
+{
+    "DESCRIPTION": "Allows you to configure the invitation rewards roles.",
+    "USAGE": "$inviterank <option> <invitations number> @role",
+    "EXAMPLES": "$inviterank add 10 @Amandine-Lover\n$inviterank remove @Amandine-Lover",
+    "NO_ARGS_INVITE": "Please specify a number of invitations.",
+    "IS_NAN": "Please specify a valid number.",
+    "ALREADY_RANK_FOR_INVITE": "There is already a role for this number of invitations.",
+    "NO_ROLE_MENTION": "Please mention a role.",
+    "INVALID_OR_MANAGED": "Please verify that the role you mentioned is valid.",
+    "ALREADY_INVITE_FOR_RANK": "There are already a number of invites for this role.",
+    "ADD_SUCCESS": "The role has been added.",
+    "NO_ROLE_FOUND": "There is no role of this name configured on the server.",
+    "REMOVE_SUCCESS": "The role has been removed.",
+    "NO_ARGS": "Please specify an action: add, remove"
+}

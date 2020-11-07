@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to generate a rip image with your profile picture or that of your friends.",
+    "USAGE": "$rip <@member>",
+    "EXAMPLES": "$rip @Mr¤KayJayDee"
+}

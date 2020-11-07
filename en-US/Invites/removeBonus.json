@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Allows you to remove bonus invitations from a user.",
+    "USAGE": "$removebonus <quantity> @member1 @member2 ....",
+    "EXAMPLES": "$removebonus 10 @Mr¤KayJayDee @Alex",
+    "NO_ARGS": "Please specify a quantity to remove.",
+    "ARGS_IS_NAN": "Please check the quantity specified. Note that it cannot be negative and must not exceed 100.",
+    "IS_BOT": "Cannot remove a bonus from a bot.",
+    "NO_MENTION": "Please mention a member.",
+    "SUCCESS": "The member(s) lost their bonus. Note that blacklisted members have been ignored."
+}

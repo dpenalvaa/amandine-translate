@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Sends you a file containing all the data that we have saved in relation to your account / server.",
+    "USAGE": "$mydata <user/member/guild>",
+    "EXAMPLES": "$mydata user\n$mydata member\n$mydata guild",
+    "SENDING": "The file will be sent to you as private messages, if you have not received it activate your private messages here and try again.",
+    "NO_ARGS": "Please specify an option: user, member, guild."
+}

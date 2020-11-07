@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Enables you to grow your text into emojis.",
+    "USAGE": "$bigtext <message>",
+    "EXAMPLES": "$bigtext Hi, I'm Amandine, I'm the best of bots.",
+    "NO_ARGS": "Please specify a message.",
+    "LIMIT": "Please specify a message of less than 14 characters."
+}

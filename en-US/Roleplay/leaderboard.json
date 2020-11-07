@@ -1,0 +1,11 @@
+{
+    "DESCRIPTION": "Displays the top 10 of the server. (currency or reputation)",
+    "USAGE": "$leaderboard <rep/money>",
+    "EXAMPLES": "$leaderboard rep\n$leaderboard money",
+    "REP": "Here are the most reputable users of the server:",
+    "MONEY": "Here are the richest users of the server:",
+    "NOTHING": "No information to display...",
+    "NO_ACTION": "Please specify a category: reputation, money.",
+    "REP_POINTS": "{{points}} reputation points.",
+    "MONEY_AMOUNT": "{{amount}} €"
+}

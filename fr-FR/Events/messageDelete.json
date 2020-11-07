@@ -1,4 +1,4 @@
 {
-    "CONTENT": "Message de {{member}} ({{username}}) supprimé dans {{channel}}",
+    "CONTENT": "{{emoji}} Message de {{member}} ({{username}}) supprimé dans {{channel}}",
     "MESSAGE": "Contenu du message :"
 }

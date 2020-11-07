@@ -1,0 +1,5 @@
+{
+    "DESCRIPTION": "Allows you to see your profile picture or that of your friends.",
+    "USAGE": "$avatar [@member]",
+    "EXAMPLES": "$avatar\n$avatar @Mr¤KayJayDee"
+}

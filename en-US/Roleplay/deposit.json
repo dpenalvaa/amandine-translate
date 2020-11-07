@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "Allows you to deposit money into your bank account.",
+    "USAGE": "$deposit <quantity>",
+    "EXAMPLES": "$deposit 100\n$deposit all",
+    "NO_ARGS": "Please specify a quantity.",
+    "IS_NAN": "Please check the quantity specified. Note that it cannot be negative.",
+    "NOT_ENOUGH": "You do not have this amount in your wallet, you cannot deposit in your bank account.",
+    "ALL": "You have just deposited all your money in your bank account.",
+    "AMOUNT": "You have just deposited {{amount}}€ into your bank account."
+}

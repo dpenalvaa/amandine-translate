@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows you to spin the slot machine.",
+    "USAGE": "$slot",
+    "EXAMPLES": "$slot",
+    "WIN": "Won",
+    "LOSE": "Lost"
+}

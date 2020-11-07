@@ -2,11 +2,11 @@
     "DESCRIPTION": "Permet de nettoyer les messages d'un canal.",
     "USAGE": "$clear <quantité/all> [@membre]",
     "EXAMPLES": "$clear 100\n$clear 100 @Mr¤KayJayDee\n$clear all",
-    "CANCELLED": "${e.error} La suppression de tous les messages du canal a été annulée.",
+    "CANCELLED": "La suppression de tous les messages du canal a été annulée.",
     "CONFIRM_ALL": "Merci de confirmer que vous êtes sûr de vouloir supprimer tous les messages du canal, celui-ci sera donc supprimé et cloné. Tapez ``-confirm`` pour confirmer ou ``cancel`` pour annuler.",
-    "TIMEOUT": "${e.time} Le temps est écoulé, vous n'avez pas validé que vous vouliez supprimer tous les messages du canal.",
-    "SUCCESS_ALL": "${e.success} Le canal a bien été nettoyé.",
-    "INVALID": "${e.error} Merci de spécifier une quantité valide.",
-    "SUCCESS_USER": "${e.success} **{{amount}}** messages de **{{name}}** ont bien été supprimés.",
+    "TIMEOUT": "Le temps est écoulé, vous n'avez pas validé que vous vouliez supprimer tous les messages du canal.",
+    "SUCCESS_ALL": "Le canal a bien été nettoyé.",
+    "INVALID": "Merci de spécifier une quantité valide.",
+    "SUCCESS_USER": "**{{amount}}** messages de **{{name}}** ont bien été supprimés.",
     "SUCCESS": "**{{amount}}** messages ont bien été supprimés."
 }

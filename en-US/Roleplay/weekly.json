@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to collect a reward every 7 days.",
+    "USAGE": "$weekly",
+    "EXAMPLES": "$weekly",
+    "TITLE": "Weekly reward from {{username}}",
+    "TIME": "Please wait {{days}}d {{hours}}h {{minutes}}m {{seconds}}s before you can claim your next reward.",
+    "WEEKLY": "You have just collected {{amount}}€."
+}

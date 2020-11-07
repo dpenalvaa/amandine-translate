@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows to encode or decode a message in Base 64.",
+    "USAGE": "$b64 <encode/decode> <message> ",
+    "EXAMPLES": "$b64 encode Amandine\n$b64 decode QW1hbmRpbmU=",
+    "NO_ARGS": "Please specify an action: encode, decode.",
+    "NO_ARGS_E": "Please specify a message to encode.",
+    "NO_ARGS_D": "Please specify a message to decode."
+}

@@ -1,0 +1,9 @@
+{
+    "DESCRIPTION": "Allows to see the latency of the bot and the discord API.",
+    "USAGE": "$ping",
+    "EXAMPLES": "$ping",
+    "FETCHING": "{{loading}} Calculating...",
+    "SLOW": "The bot is slow.",
+    "FAST": "The bot is fast.",
+    "PING": "{{server}} API : ***{{api}}*** ms\n{{emojiBot}} BOT : ***{{bot}}*** ms\n\n{{hint}}\n[Discord Status](https://status.discord.com/)"
+}

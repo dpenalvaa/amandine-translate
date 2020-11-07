@@ -1,0 +1,7 @@
+{
+    "DESCRIPTION": "Allows you to see the amount of change you have in your bank account.",
+    "USAGE": "$bank",
+    "EXAMPLES": "$bank",
+    "TITLE": "{{username}} bank account",
+    "INFOS": "You currently have {{bank}}€ in your bank account."
+}

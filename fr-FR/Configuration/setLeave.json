@@ -16,7 +16,7 @@
     "TIMEOUT": "Le temps est écoulé, vous n'avez pas validé que vous vouliez réinitialiser la configuration du message d'au revoir.",
     "NO_MENTION": "Merci de mentionner un canal.",
     "CHANNEL_SUCCESS": "Le canal d'au revoir a bien été configuré.",
-    "NO_ARGS_MESSAGE": "Merci de spécifier un message. Vous pouvez trouver les paramètres disponibles avec ${prefix}setleave options.",
+    "NO_ARGS_MESSAGE": "Merci de spécifier un message. Vous pouvez trouver les paramètres disponibles avec {{prefix}}setleave options.",
     "NON_EXISTENT_CHANNEL": "Impossible de configurer le message d'au revoir tant que le canal n'est pas configuré ou invalide.",
     "TOO_LONG": "Votre message d'au revoir est trop long, il ne doit pas dépasser 1000 caractères.",
     "MESSAGE_SUCCESS": "Le message d'au revoir a bien été configuré.",

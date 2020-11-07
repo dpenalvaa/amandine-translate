@@ -1,0 +1,8 @@
+{
+    "DESCRIPTION": "Allows you to have an invitation link by mentioning a bot.",
+    "USAGE": "$inviteabot @bot",
+    "EXAMPLES": "$inviteabot @MyCoolBot",
+    "NO_MENTION": "Merci de mentionner un bot.",
+    "IS_USER_MENTION": "You cannot invite a user.",
+    "SUCCESS": "Here are the links to invite {{username}} ({{id}})"
+}

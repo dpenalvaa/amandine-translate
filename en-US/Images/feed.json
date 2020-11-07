@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Let you feed member.",
+    "USAGE": "$feed <@member>",
+    "EXAMPLES": "$feed @Mr¤KayJayDee",
+    "MESSAGE": "**{{author}}** just fed **{{user}}**"
+}

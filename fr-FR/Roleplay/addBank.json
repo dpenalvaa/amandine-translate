@@ -7,5 +7,5 @@
 	"NO_MENTION": "Merci de mentionner un membre.",
 	"IS_BOT": "Impossible d'ajouter de la monnaie sur le compte en banque d'un bot.",
 	"TITLE": "Ajout de monnaie dans la banque de {{username}}.",
-	"RESULT": "Cet utilisateur avait {{startBank}}, vous venez de lui ajouter {{toAdd}}€, il possède maintenant {{newBank}}€ sur son compte en banque."
+	"RESULT": "Cet utilisateur avait {{startBank}}€, vous venez de lui ajouter {{toAdd}}€, il possède maintenant {{newBank}}€ sur son compte en banque."
 }

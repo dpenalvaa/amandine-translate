@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows you to see the information of a role.",
+    "USAGE": "$roleinfo [@role/ID]",
+    "EXAMPLES": "$roleinfo @friends\n$roleinfo 123456789\n$roleinfo Staff",
+    "INFOS": "**Informations on the role:** {{role}}\n\n🔢 | Number of member that have the role: **{{members}}**\n#️⃣ | Hexadecimal color: **{{color}}**\n🆔 | ID: **{{id}}**\n🌐 | Mentionnable: **{{mentionable}}**\n1️⃣ | Position: **{{position}}**\n🤖 | Managed by a bot: **{{managed}}**\n👀 | Displayed separately: **{{hoist}}**\n🕐 | Creation date: **{{date}}**"
+}

@@ -1,0 +1,12 @@
+{
+    "DESCRIPTION": "Allows you to clean up a channel's messages.",
+    "USAGE": "$clear <quantity/all> [@member]",
+    "EXAMPLES": "$clear 100\n$clear 100 @Mr¤KayJayDee\n$clear all",
+    "CANCELLED": "The deletion of all messages from the channel has been canceled.",
+    "CONFIRM_ALL": "Please confirm that you are sure you want to delete all messages from the channel, so the channel will be deleted and cloned. Type ``-confirm`` to confirm or ``cancel`` to cancel.",
+    "TIMEOUT": "The time is up, you have not validated that you want to delete all the messages from the channel.",
+    "SUCCESS_ALL": "The channel has been cleaned up successfully.",
+    "INVALID": "Please specify a valid quantity.",
+    "SUCCESS_USER": "**{{amount}}** messages from **{{name}}** have been successfully deleted.",
+    "SUCCESS": "**{{amount}}** messages have been deleted."
+}

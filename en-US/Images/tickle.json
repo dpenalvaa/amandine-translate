@@ -1,0 +1,6 @@
+{
+    "DESCRIPTION": "Allows you to tickle a member.",
+    "USAGE": "$tickle <@member>",
+    "EXAMPLES": "$tickle @Mr¤KayJayDee",
+    "MESSAGE": "**{{author}}** just tickled **{{user}}**"
+}

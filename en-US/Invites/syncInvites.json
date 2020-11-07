@@ -1,0 +1,10 @@
+{
+    "DESCRIPTION": "The time is up, you have not validated that you want to restore the invitations of the mentioned member (s).",
+    "USAGE": "$syncinvites",
+    "EXAMPLES": "$syncinvites",
+    "NO_INVITES": "Allows you to synchronize the server invitations with the bot database.",
+    "CONFIRM": "Please confirm that you are sure you want to synchronize invitations from all server members with the database. Type ``-confirm`` to confirm or ``cancel`` to cancel.",
+    "CANCELLED": "The synchronization of invitations for all members has been canceled.",
+    "SUCCESS": "The invitations of all members have been synchronized.",
+    "TIMEOUT": "The time is up, you have not validated that you want to synchronize the invitations of all the members of the server."
+}
